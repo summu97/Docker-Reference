@@ -1,0 +1,5 @@
+To go into container:
+docker exec -it CONTAINER_ID /bin/bash
+
+To exit from container:
+ctrl + p+q

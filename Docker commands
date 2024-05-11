@@ -3,3 +3,9 @@ docker exec -it CONTAINER_ID /bin/bash
 
 To exit from container:
 ctrl + p+q
+
+To delete all containers:
+docker rm $(docker ps -a -q)
+
+to delete all images:
+docker rmi -f $(docker images -q)
